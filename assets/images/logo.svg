@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="hl-orange-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B20" />
+      <stop offset="100%" stop-color="#FFC400" />
+    </linearGradient>
+    <linearGradient id="hl-silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#C5C5C5" />
+      <stop offset="100%" stop-color="#7B7B80" />
+    </linearGradient>
+    <linearGradient id="hl-silver-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5E5E5" />
+      <stop offset="100%" stop-color="#808085" />
+    </linearGradient>
+    <linearGradient id="hl-gold-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B20" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFC400" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FF6B20" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="subtle-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#FF6B20" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- EMBLEM GRAPHIC (Left) -->
+  <g transform="translate(10, 8)">
+    <!-- Dark Architectural Shield Base -->
+    <rect x="0" y="0" width="104" height="104" rx="14" fill="#0A0A0A" stroke="#222222" stroke-width="1.5" />
+    
+    <!-- Outer Accent Rings / Subtle Architectural Framing -->
+    <path d="M12 90 L12 50 L52 14 L92 50 L92 90 Z" fill="none" stroke="#262626" stroke-width="1" stroke-dasharray="3,3" />
+
+    <!-- Silver Skyscraper Graphics (Background Silhouettes) -->
+    <!-- Tower 1 (Left silver skyscraper) -->
+    <rect x="26" y="44" width="12" height="46" fill="url(#hl-silver-dark)" rx="1" />
+    <line x1="30" y1="48" x2="30" y2="86" stroke="#0A0A0A" stroke-width="1.2" stroke-dasharray="2,3" />
+    <line x1="34" y1="48" x2="34" y2="86" stroke="#0A0A0A" stroke-width="1.2" stroke-dasharray="2,3" />
+    
+    <!-- Tower 2 (Center highest skyscraper - tapered top) -->
+    <polygon points="46,26 58,26 58,90 46,90" fill="url(#hl-silver)" />
+    <!-- Center spire -->
+    <line x1="52" y1="18" x2="52" y2="26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+    <!-- High-rise window grid -->
+    <line x1="49" y1="30" x2="49" y2="86" stroke="#0A0A0A" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="52" y1="30" x2="52" y2="86" stroke="#0A0A0A" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="55" y1="30" x2="55" y2="86" stroke="#0A0A0A" stroke-width="1" stroke-dasharray="2,2" />
+
+    <!-- Tower 3 (Right silver skyscraper - angled modern facade) -->
+    <polygon points="66,38 78,44 78,90 66,90" fill="url(#hl-silver-dark)" />
+    <line x1="70" y1="46" x2="70" y2="86" stroke="#0A0A0A" stroke-width="1.2" stroke-dasharray="2,3" />
+    <line x1="74" y1="48" x2="74" y2="86" stroke="#0A0A0A" stroke-width="1.2" stroke-dasharray="2,3" />
+
+    <!-- Orange & Golden-Yellow House-Shaped Architectural Frame -->
+    <!-- Bold Gable / House Roof Geometry -->
+    <path d="M20 54 L52 24 L84 54" fill="none" stroke="url(#hl-orange-gold)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#subtle-glow)" />
+    
+    <!-- Secondary House Offset Silhouette (Golden accent) -->
+    <path d="M30 52 L52 32 L74 52" fill="none" stroke="#FFC400" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Modern Foundation / Civil Engineering Beam line -->
+    <line x1="18" y1="90" x2="86" y2="90" stroke="url(#hl-orange-gold)" stroke-width="3" stroke-linecap="round" />
+    <line x1="26" y1="94" x2="78" y2="94" stroke="#FFC400" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Architectural Compass / Coordinate point -->
+    <circle cx="52" cy="24" r="2.5" fill="#FFFFFF" />
+  </g>
+
+  <!-- BRAND TYPOGRAPHY (Right) -->
+  <g transform="translate(132, 22)">
+    <!-- "HOME LINE" Primary Wordmark -->
+    <text x="0" y="44" font-family="'Outfit', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, sans-serif" font-weight="900" font-size="44" letter-spacing="3.5" fill="#FFFFFF">
+      HOME <tspan fill="url(#hl-orange-gold)">LINE</tspan>
+    </text>
+
+    <!-- Subtitle / Business Category -->
+    <text x="2" y="66" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-weight="600" font-size="11.5" letter-spacing="4" fill="#C5C5C5" text-transform="uppercase">
+      CIVIL ENGINEERING &bull; CONSTRUCTION
+    </text>
+
+    <!-- Tagline Divider Line -->
+    <line x1="2" y1="74" x2="368" y2="74" stroke="url(#hl-gold-glow)" stroke-width="1.2" />
+
+    <!-- Brand Tagline: Construction • Design • Innovation • Interior -->
+    <text x="2" y="87" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-weight="600" font-size="9" letter-spacing="2.2" fill="#FFC400">
+      CONSTRUCTION <tspan fill="#FF6B20">&bull;</tspan> DESIGN <tspan fill="#FF6B20">&bull;</tspan> INNOVATION <tspan fill="#FF6B20">&bull;</tspan> INTERIOR
+    </text>
+  </g>
+</svg>
+

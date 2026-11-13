@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="emb-orange-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B20" />
+      <stop offset="100%" stop-color="#FFC400" />
+    </linearGradient>
+    <linearGradient id="emb-silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#C5C5C5" />
+      <stop offset="100%" stop-color="#7B7B80" />
+    </linearGradient>
+    <linearGradient id="emb-silver-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5E5E5" />
+      <stop offset="100%" stop-color="#808085" />
+    </linearGradient>
+    <filter id="emb-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#FF6B20" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="116" height="116" rx="24" fill="#0A0A0A" stroke="#222222" stroke-width="2" />
+  
+  <!-- Architectural guide lines -->
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="4,4" />
+  <line x1="60" y1="10" x2="60" y2="110" stroke="#1A1A1A" stroke-width="0.8" stroke-dasharray="2,4" />
+  <line x1="10" y1="60" x2="110" y2="60" stroke="#1A1A1A" stroke-width="0.8" stroke-dasharray="2,4" />
+
+  <!-- Silver Skyscraper Graphics -->
+  <rect x="28" y="52" width="14" height="48" fill="url(#emb-silver-dark)" rx="2" />
+  <line x1="33" y1="56" x2="33" y2="94" stroke="#0A0A0A" stroke-width="1.5" stroke-dasharray="2,3" />
+  <line x1="37" y1="56" x2="37" y2="94" stroke="#0A0A0A" stroke-width="1.5" stroke-dasharray="2,3" />
+
+  <polygon points="52,32 68,32 68,100 52,100" fill="url(#emb-silver)" />
+  <line x1="60" y1="20" x2="60" y2="32" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="56" y1="36" x2="56" y2="96" stroke="#0A0A0A" stroke-width="1.5" stroke-dasharray="2,2" />
+  <line x1="60" y1="36" x2="60" y2="96" stroke="#0A0A0A" stroke-width="1.5" stroke-dasharray="2,2" />
+  <line x1="64" y1="36" x2="64" y2="96" stroke="#0A0A0A" stroke-width="1.5" stroke-dasharray="2,2" />
+
+  <polygon points="76,46 90,52 90,100 76,100" fill="url(#emb-silver-dark)" />
+  <line x1="81" y1="54" x2="81" y2="94" stroke="#0A0A0A" stroke-width="1.5" stroke-dasharray="2,3" />
+  <line x1="85" y1="56" x2="85" y2="94" stroke="#0A0A0A" stroke-width="1.5" stroke-dasharray="2,3" />
+
+  <!-- Orange & Golden-Yellow House-Shaped Architectural Roof -->
+  <path d="M22 62 L60 28 L98 62" fill="none" stroke="url(#emb-orange-gold)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#emb-glow)" />
+  <path d="M34 60 L60 38 L86 60" fill="none" stroke="#FFC400" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+
+  <line x1="20" y1="102" x2="100" y2="102" stroke="url(#emb-orange-gold)" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="60" cy="28" r="2.5" fill="#FFFFFF" />
+</svg>
+
