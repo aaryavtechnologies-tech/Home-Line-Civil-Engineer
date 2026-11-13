@@ -518,13 +518,15 @@ p {
 }
 
 .brand-logo-img {
-  height: 48px;
+  height: 56px;
   width: auto;
+  max-width: 170px;
+  object-fit: contain;
   transition: height var(--transition-medium);
 }
 
 .site-header.scrolled .brand-logo-img {
-  height: 42px;
+  height: 46px;
 }
 
 /* Desktop Navigation */
@@ -992,8 +994,9 @@ p {
 }
 
 .about-badge-icon {
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
   flex-shrink: 0;
 }
 
@@ -1956,8 +1959,9 @@ p {
 }
 
 .contact-brand-logo {
-  height: 48px;
+  height: 64px;
   width: auto;
+  object-fit: contain;
 }
 
 .contact-brand-title {
@@ -2587,8 +2591,10 @@ p {
 }
 
 .footer-logo-img {
-  height: 52px;
+  height: 76px;
   width: auto;
+  max-width: 220px;
+  object-fit: contain;
   margin-bottom: 1.25rem;
 }
 
